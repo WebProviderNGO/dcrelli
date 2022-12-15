@@ -1,3 +1,80 @@
 [uk-lightbox] a {
     cursor: zoom-in;
 }
+
+.uk-background-primary {
+    background-color: var(--PrimaryColor);
+}
+
+.uk-background-primary2 {
+    background-color: var(--PrimaryColor2);
+}
+
+.uk-background-secondary {
+    background-color: var(--SecondaryColor);
+}
+
+.uk-comment-primary {
+    background-color: white;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: white;
+}
+
+.uk-logo,
+.uk-navbar-nav>li>a,
+a,
+.uk-button-link {
+    color: var(--SecondaryColor);
+}
+
+.uk-logo:hover,
+.uk-navbar-nav>li:hover>a,
+a:hover,
+.uk-button-link:hover {
+    color: black;
+}
+
+.uk-light {
+    color: white;
+}
+
+.uk-button-danger {
+    font-weight: 700;
+}
+
+.uk-border-rounded {
+    border-radius: 25px;
+}
+
+.uk-text-primary {
+    color: var(--PrimaryColor2) !important;
+}
+
+.uk-text-secondary {
+    color: var(--SecondaryColor2) !important;
+}
+
+.uk-card-default .uk-card-header,
+.uk-card-default .uk-card-footer {
+    border-top: none;
+    border-bottom: none;
+}
+
+.uk-offcanvas-bar {
+    background: var(--PrimaryColor);
+}
+
+.uk-offcanvas-bar .uk-nav-primary>li>a {
+    color: var(--SecondaryColor);
+}
+
+.uk-offcanvas-bar .uk-close {
+    color: black;
+}
+
+.uk-legend {
+    font-weight: 700;
+    color: black;
+}

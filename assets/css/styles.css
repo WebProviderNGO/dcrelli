@@ -1,6 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 html {
-    --PrimaryColor: #1e87f0;
-    --SecondaryColor: #fbda0c;
+    --PrimaryColor: #f5a4b7;
+    --SecondaryColor: #725f65;
+    --PrimaryColor2: #8498b0;
+    --SecondaryColor2: #f5a4b7;
+    background: #f8f8f8;
+}
+
+html,
+.uk-logo,
+.uk-navbar-nav>li>a,
+.uk-button,
+h3 {
+    font-family: 'Comfortaa', cursive;
+}
+
+.uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+.uk-h5,
+.uk-h6,
+.uk-heading-2xlarge,
+.uk-heading-large,
+.uk-heading-medium,
+.uk-heading-small,
+.uk-heading-xlarge,
+h1,
+h2,
+h5,
+h6 {
+    font-family: 'Pangolin', cursive;
+}
+
+h1 {
+    color: black;
+}
+
+h1,
+h2,
+.uk-heading-small,
+.uk-card-title,
+.HomeSection1 h3 {
+    font-weight: 700;
+}
+
+.HeaderMini {
+    padding: 5px 0;
+}
+
+.hstyle {
+    text-shadow: 2px 2px 0 #f5a4b7, 4px 4px 0 #8f606b;
+}
+
+.hstyle2 {
+    text-shadow: 2px 2px 0 white, 4px 4px 0 #f5a4b7;
+}
+
+.hstyle3 {
+    color: white;
+    text-shadow: 2px 2px 0 var(--PrimaryColor2), 4px 4px 0 var(--SecondaryColor);
+}
+
+.uk-logo,
+.uk-navbar-nav>li>a {
+    font-weight: 500;
+}
+
+.HomeHeader {
+    background-image: url(../../content/balloon-2838351_1920.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+.HomeHeader .uk-text-large {
+    color: var(--SecondaryColor);
+}
+
+.HomeSection1 h3 {
+    font-size: 1.1rem;
+}
+
+.HomeSection1 .uk-box-shadow-medium {
+    box-shadow: 0 5px 15px rgba(132, 152, 176, 0.5);
+}
+
+.svg_mini svg {
+    height: 20px;
+    fill: white;
+}
+
+#ZapisModal .uk-modal-dialog {
+    width: 400px;
+}
+
+#ZapisModal [class*="uk-modal-close-"] {
+    padding: 25px;
+}
+
+#ZapisModal .uk-close {
+    color: var(--PrimaryColor);
+}
+
+.uk-comment {
+    border: 4px dashed var(--PrimaryColor2);
 }
